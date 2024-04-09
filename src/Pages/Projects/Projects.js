@@ -344,22 +344,16 @@ const Projects = () => {
           "React.js"
         ],
         "overview": [
-          "Dating apps are all the rage right now, allowing anyone to find a partner for any kind of relationship they are searching for. One of the biggest selling points is the variety, regardless of what exact requirements you have, it’s more than likely that there’s an app that will fit that niche. And one of those niches will be filled by Update."
+          // "Dating apps are all the rage right now, allowing anyone to find a partner for any kind of relationship they are searching for. One of the biggest selling points is the variety, regardless of what exact requirements you have, it’s more than likely that there’s an app that will fit that niche. And one of those niches will be filled by Update."
+          "Matching app for people who wish to settle down and have a more serious relationship. It allows chat, picture-sharing, and provides matches based on the user’s preferences and previous matches, an anti-ghosting mechanism to prevent users to leave conversations without reasoning, push-notification system."
         ],
         "Technologies": [
-          "React",
-          "Redux",
-          "Firebase",
-          "Material UI",
-          "Jest",
-          "Python",
-          "Django",
+          "API",
+
           "AWS EC2",
-          "ELB",
           "Git",
           "GitHub",
-          "Docker",
-          "PostgreSQL",
+
           "S3"
         ],
         "solutions": [
@@ -529,24 +523,30 @@ const Projects = () => {
           "Digital technologies have played a large role in the advancement of medicine. Today, there are hundreds of medical mobile applications out there that are useful for both doctors and patients. From monitoring your health, to purchasing medicine, making appointments with doctors, and keeping track of medical records, these apps have made healthcare more available and convenient."
         ],
         "Technologies": [
-          "React",
+          "React Native",
           "Redux",
-          "Firebase",
-          "Material UI",
-          "Jest",
-          "Python",
-          "Django",
           "AWS EC2",
           "ELB",
           "Git",
           "GitHub",
-          "Docker",
-          "PostgreSQL",
+          "MySQL",
+          "PHP",
+          "Laravel",
+          "Echo-server",
+          "Web-sockets",
+          "Cron",
           "S3"
         ],
         "solutions": [
           "Implemented user authentication",
-          "Integrated payment gateways"
+          "Integrated payment gateways",
+          "Client / Caregiver search function",
+          "Built in chat / messaging system",
+          "Appointment management",
+          "Scheduling",
+          "Care requirements",
+          "Consolidation of medical records",
+          "Rate and Review system",
         ],
         "challenges": [
           "Developing a platform that covers both urgent care and essential services while keeping the costs affordable.",
@@ -563,7 +563,7 @@ const Projects = () => {
         ],
         "liveSite": "https://wagmo.io/",
         "Duration": "(2 years, 6 month's)",
-        "developersRole": "I was Main developer and 4 developers works on this project",
+        "developersRole": "I was Main backend developer and 1 developer works on mobile app",
         "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers.",
         "__v": 0
       },
@@ -602,7 +602,9 @@ const Projects = () => {
         ],
         "solutions": [
           "Implemented user authentication",
-          "Integrated payment gateways"
+          "Integrated payment gateways",
+          "Stats input (sport type, height, weight)",
+          "Analytics"
         ],
         "challenges": [
           "Developing a platform that covers both urgent care and essential services while keeping the costs affordable.",
@@ -619,7 +621,7 @@ const Projects = () => {
         ],
         "liveSite": "https://wagmo.io/",
         "Duration": "(2 years, 6 month's)",
-        "developersRole": "I was Main developer and 4 developers works on this project",
+        "developersRole": "I was Main backend developer and 1 developer works on mobile app",
         "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers.",
         "__v": 0
       }
