@@ -10,7 +10,7 @@ const Navbar = () => {
     const data = {data: {
             "_id": "64f02db7afb16ffb95954daa",
             "userLogo": "https://i.ibb.co/bQvHQRK/6575219-removebg-preview.png",
-            "userLogoName": "MK",
+            "userLogoName": "M",
             "userName": "Mikhail",
             "userTitles": [
                 "Full Stack Developer",

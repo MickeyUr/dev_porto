@@ -49,78 +49,12 @@ const Projects = () => {
   // const { data } = useGetprojectsQuery("mickey.ur@gmail.com");
   const data = {data:[
       {
-        "_id": "64eb098a34e07be6794efaae",
+        "_id": "64eb0ee4cb0a7e5d718fe164",
         "projectFor": "mickey.ur@gmail.com",
-        "projectTitle": "Social networking service targeted at event streams.",
-        "projectKeyWord": "Event Social network",
+        "projectTitle": "Online store targeted at pet products, including pet medicine.",
+        "projectKeyWord": "Online shopping",
         "gellaryImages": [
-          "https://viaduct.pro/wp-content/uploads/2022/03/giffycanvas-2.gif",
-          "https://viaduct.pro/wp-content/uploads/2022/03/Storyline.png",
-          "https://viaduct.pro/wp-content/uploads/2022/03/Onboarding-31.png",
-          "https://viaduct.pro/wp-content/uploads/2022/03/Onboarding-11.png",
-          "https://viaduct.pro/wp-content/uploads/2022/03/Onboarding-21.png",
-        ],
-        "projectCategory": [
-          "Laravel",
-          "SASS",
-          "Fin-tech"
-        ],
-        "overview": [
-          "What is an event? Let’s say you had a birthday - this is an event, and you invited friends to it, and after a fun event, there are a lot of memories in a photo and video format. " ,
-          "Storyline helps users share media memories in events by posting photos and videos of each other, as well as commenting them."
-        ],
-        "Technologies": [
-          "React",
-          "Redux",
-          "Firebase",
-          "Material UI",
-          "Jest",
-          "Python",
-          "Django",
-          "AWS EC2",
-          "ELB",
-          "Git",
-          "GitHub",
-          "Docker",
-          "PostgreSQL",
-          "S3"
-        ],
-        "solutions": [
-          "Implemented user authentication",
-          "Integrated payment gateways"
-        ],
-        "challenges": [
-          "Developing a platform that covers both urgent care and essential services while keeping the costs affordable.",
-          "Ensuring seamless integration with different payment systems, including PayPal and Venmo, to facilitate quick reimbursement.",
-          "Developing a dedicated app that can handle client data effectively and enable streamlined insurance plan management and client onboarding.",
-          "Implementing marketing tools like Klaviyo to collect usage stats and trends effectively and increase web traffic.",
-          "Designing a user-friendly check-out flow that allows users to add new packages easily.",
-          "Providing comprehensive admin training to drive solution adoption and achieve higher ROI.",
-          "Ensuring that the platform complies with relevant regulations and standards in the insurance industry."
-        ],
-        "features": [
-          "Online access to policy details, claims, and coverage information.",
-          "Easy access to customer support for any questions or concerns.",
-          "Compliance with relevant regulations and standards in the insurance industry.",
-          "Comprehensive admin training to drive solution adoption and achieve higher ROI.",
-          "User-friendly check-out flow for adding new packages.",
-          "Usage statistics and trend collection through marketing tools like Klaviyo.",
-          "Affordable pricing for everyday pet care.",
-          "SPA (Single page application)"
-        ],
-        "liveSite": "https://wagmo.io/",
-        "Duration": "(2 years, 6 month's)",
-        "developersRole": "I was Main developer and 4 developers works on this project",
-        "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers. Jeffery's attention to detail, clear communication, and problem-solving skills ensured a successful outcome. Thank you for your exceptional work, Jeffery!",
-        "__v": 0
-      },
-      {
-        "_id": "64eb098a34e07be6794efaa4",
-        "projectFor": "mickey.ur@gmail.com",
-        "projectTitle": "Versand-office",
-        "projectKeyWord": "E-Coom",
-        "gellaryImages": [
-          "https://static.vecteezy.com/system/resources/previews/005/048/106/original/black-and-yellow-grunge-modern-thumbnail-background-free-vector.jpg",
+          "https://i.ibb.co/VNK9dg6/1.png",
           "https://i.ibb.co/Srd0VTz/2.png",
           "https://i.ibb.co/VJLbv6z/3.png",
           "https://i.ibb.co/kcz6S3f/4.png",
@@ -132,9 +66,7 @@ const Projects = () => {
           "https://i.ibb.co/3mdyywR/22.png"
         ],
         "projectCategory": [
-          "Laravel",
-          "SASS",
-          "Fin-tech"
+          "React.js"
         ],
         "overview": [
           "As pet owners, the founders of Wagmo understood that basic procedures such as vaccinations, grooming, and bloodwork could quickly accumulate four-digit bills, and they saw an opportunity to create a unique platform that would make everyday pet care more affordable.",
@@ -259,12 +191,12 @@ const Projects = () => {
         "__v": 0
       },
       {
-        "_id": "64eb0ee4cb0a7e5d718fe164",
+        "_id": "64eb098a34e07be6794efaa4",
         "projectFor": "mickey.ur@gmail.com",
-        "projectTitle": "Online store targeted at pet products, including pet medicine.",
-        "projectKeyWord": "Online shopping",
+        "projectTitle": "Versand-office",
+        "projectKeyWord": "B2B",
         "gellaryImages": [
-          "https://i.ibb.co/VNK9dg6/1.png",
+          "https://static.vecteezy.com/system/resources/previews/005/048/106/original/black-and-yellow-grunge-modern-thumbnail-background-free-vector.jpg",
           "https://i.ibb.co/Srd0VTz/2.png",
           "https://i.ibb.co/VJLbv6z/3.png",
           "https://i.ibb.co/kcz6S3f/4.png",
@@ -276,7 +208,9 @@ const Projects = () => {
           "https://i.ibb.co/3mdyywR/22.png"
         ],
         "projectCategory": [
-          "React.js"
+          "Laravel",
+          "SASS",
+          "Fin-tech"
         ],
         "overview": [
           "As pet owners, the founders of Wagmo understood that basic procedures such as vaccinations, grooming, and bloodwork could quickly accumulate four-digit bills, and they saw an opportunity to create a unique platform that would make everyday pet care more affordable.",
@@ -328,6 +262,76 @@ const Projects = () => {
         "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers. Jeffery's attention to detail, clear communication, and problem-solving skills ensured a successful outcome. Thank you for your exceptional work, Jeffery!",
         "__v": 0
       },
+
+      {
+        "_id": "64eb098a34e07be6794efaae",
+        "projectFor": "mickey.ur@gmail.com",
+        "projectTitle": "Social networking service targeted at event streams.",
+        "projectKeyWord": "Event Social network",
+        "gellaryImages": [
+          "https://viaduct.pro/wp-content/uploads/2022/03/giffycanvas-2.gif",
+          "https://viaduct.pro/wp-content/uploads/2022/03/Storyline.png",
+          "https://viaduct.pro/wp-content/uploads/2022/03/Onboarding-31.png",
+          "https://viaduct.pro/wp-content/uploads/2022/03/Onboarding-11.png",
+          "https://viaduct.pro/wp-content/uploads/2022/03/Onboarding-21.png",
+        ],
+        "projectCategory": [
+          "Laravel",
+          "SASS",
+          "Fin-tech"
+        ],
+        "overview": [
+          "What is an event? Let’s say you had a birthday - this is an event, and you invited friends to it, and after a fun event, there are a lot of memories in a photo and video format. " ,
+          "Storyline helps users share media memories in events by posting photos and videos of each other, as well as commenting them."
+        ],
+        "Technologies": [
+          "React",
+          "Redux",
+          "Firebase",
+          "Material UI",
+          "Jest",
+          "Python",
+          "Django",
+          "AWS EC2",
+          "ELB",
+          "Git",
+          "GitHub",
+          "Docker",
+          "PostgreSQL",
+          "S3"
+        ],
+        "solutions": [
+          "Implemented user authentication",
+          "Integrated payment gateways"
+        ],
+        "challenges": [
+          "Developing a platform that covers both urgent care and essential services while keeping the costs affordable.",
+          "Ensuring seamless integration with different payment systems, including PayPal and Venmo, to facilitate quick reimbursement.",
+          "Developing a dedicated app that can handle client data effectively and enable streamlined insurance plan management and client onboarding.",
+          "Implementing marketing tools like Klaviyo to collect usage stats and trends effectively and increase web traffic.",
+          "Designing a user-friendly check-out flow that allows users to add new packages easily.",
+          "Providing comprehensive admin training to drive solution adoption and achieve higher ROI.",
+          "Ensuring that the platform complies with relevant regulations and standards in the insurance industry."
+        ],
+        "features": [
+          "Online access to policy details, claims, and coverage information.",
+          "Easy access to customer support for any questions or concerns.",
+          "Compliance with relevant regulations and standards in the insurance industry.",
+          "Comprehensive admin training to drive solution adoption and achieve higher ROI.",
+          "User-friendly check-out flow for adding new packages.",
+          "Usage statistics and trend collection through marketing tools like Klaviyo.",
+          "Affordable pricing for everyday pet care.",
+          "SPA (Single page application)"
+        ],
+        "liveSite": "https://wagmo.io/",
+        "Duration": "(2 years, 6 month's)",
+        "developersRole": "I was Main developer and 4 developers works on this project",
+        "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers. Jeffery's attention to detail, clear communication, and problem-solving skills ensured a successful outcome. Thank you for your exceptional work, Jeffery!",
+        "__v": 0
+      },
+
+
+
       {
         "_id": "64eb0ee4cb0a7e5d718fe162",
         "projectFor": "mickey.ur@gmail.com",

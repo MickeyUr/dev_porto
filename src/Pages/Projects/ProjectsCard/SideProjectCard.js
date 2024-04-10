@@ -8,6 +8,8 @@ import {
   setDetailsProject,
 } from "../../../redux/features/project/projectSlice";
 import { motion } from "framer-motion";
+import { fadeIn, textVariant } from "../../../utils/motion.js";
+import Tilt from "react-tilt";
 const SideProjectCard = ({ data }) => {
   const { _id, gellaryImages, projectTitle, projectKeyWord } = data;
 
@@ -23,12 +25,15 @@ const SideProjectCard = ({ data }) => {
     }
   };
 
+  const index = 1 ; //need index to count delay
+
   return (
     <motion.div 
     
     initial={{ x: "100%" }}
     animate={{ x: "0%" }}
     transition={{ type: "spring", mass: 0.3 }}
+    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
     className=" my-4 mx-auto ">
       <h2 className="text-text text-left">
         <span className="text-text-blue font-bold"></span>{" "}

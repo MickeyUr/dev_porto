@@ -20,13 +20,14 @@ const Home = () => {
   const isLoading = false;
   const data = {data: {
       "_id": "64f02db7afb16ffb95954daa",
-      "userLogo": "https://i.ibb.co/bQvHQRK/6575219-removebg-preview.png",
-      "userLogoName": "MK",
+      "userLogo": "../../logo.svg",
+      "userLogoName": "M",
       "userName": "Mikhail Uryvalkin",
       "userTitles": [
-        "Back-end Developer",
+        "Backend Developer",
         "Software Architect",
-        "Engineer",
+        "Backend Engineer",
+        "Backend Mastery",
       ],
       "shortTechnologies": [
         {
@@ -67,8 +68,8 @@ const Home = () => {
       "githubLink": "https://github.com/MickeyUr",
       "linkedinLink": "https://www.linkedin.com/in/MickeyUr",
       "githubUserName": "MickeyUr",
-      // "userImage": "https://images.vexels.com/media/users/3/137049/isolated/preview/55645fc5ccb4dbf9e2fb656ddecba730-icone-laranja-de-pessoa-do-usuario.png",
-      "userImage": "../photo.png",
+      "userImage": "https://images.vexels.com/media/users/3/137049/isolated/preview/55645fc5ccb4dbf9e2fb656ddecba730-icone-laranja-de-pessoa-do-usuario.png",
+      // "userImage": "photo.png",
       "aboutMe": [
         "As a MERN stack developer, I am a seasoned professional with over 3years of experience in the industry. My passion for coding and problem-solving has driven me to excel in my field, and I pride myself on my ability to create elegant, efficient, and user-friendly web applications.",
         "I have a strong background in both front-end and back-end development, and my expertise in MERN stack technologies allows me to create complex, dynamic web applications that meet the needs of even the most demanding clients.",
@@ -174,7 +175,7 @@ const Home = () => {
 
   const subheading = data?.data?.userTitles;
   return (
-    <div className="h-full">
+    <div className="h-full hero-background">
       {isLoading && (
         <div className="flex items-center justify-center absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 ">
           <div className="w-80 h-80 border-t-4 border-b-4 border-green-900 rounded-full animate-spin"></div>

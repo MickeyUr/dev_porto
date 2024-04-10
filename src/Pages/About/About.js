@@ -73,6 +73,7 @@ const About = () => {
       "githubUserName": "MickeyUr",
       "userImage": "https://images.vexels.com/media/users/3/137049/isolated/preview/55645fc5ccb4dbf9e2fb656ddecba730-icone-laranja-de-pessoa-do-usuario.png",
       "aboutMe": [
+        "I'm a skilled software developer with experience in Php and JavaScript, and expertise in frameworks like Yii/Yii2, Laravel, Codegniter.",
         "Experienced lead developer who have worked on several complex projects for companies from different countries. Working in Web Development Industry since 2013.",
         "I have a strong background in both front-end and back-end development, and my expertise in WEB stack technologies allows me to create complex, dynamic web applications that meet the needs of even the most demanding clients.",
         "Worked both at office and remotely, at several companies. Sometimes was the only developer on a project, but often worked in a team. Also, I was act as a team lead on some projects.",
