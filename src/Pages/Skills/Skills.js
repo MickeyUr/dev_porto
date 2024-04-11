@@ -302,7 +302,7 @@ const Skills = () => {
 
 
                     </div>
-                    <div className="md:w-10/12 relative justify-center items-center">
+                    <div className="md:w-11/12 relative justify-center items-center">
                         <motion.div
                             initial={{x: 100}}
                             animate={{x: 0}}

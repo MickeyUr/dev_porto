@@ -69,9 +69,7 @@ const Projects = () => {
           "React.js"
         ],
         "overview": [
-          "As pet owners, the founders of Wagmo understood that basic procedures such as vaccinations, grooming, and bloodwork could quickly accumulate four-digit bills, and they saw an opportunity to create a unique platform that would make everyday pet care more affordable.",
-          "While most pet insurance providers only focus on medical emergencies, Wagmo's platform covers both urgent care and essential services. Following several successful seed rounds, the company engaged with me to enhance the platform's functionality. To improve customer service and keep pace with the ongoing digital transformation, Wagmo needed to move beyond Excel spreadsheets. ",
-          "Therefore, we migrated all client data to a dedicated app, enabling streamlined insurance plan management and more efficient client onboarding."
+          "Very specialized pet medicine online store, which had to include a lot of pet-centric features, such as giving the customers a way to list their pets with associate details as their age, breed and so on, as well as vet-centric features (customers would specify which vet works with each of their pets), as well as medicine-specific features (different dosages, special flow for RX medicine, with vets being sent confirmation faxes and so on) and also things like automated ordering for those customers which needed some medicine to be sent periodically on a schedule. Developed mostly in PHP (using Laravel) for the back-end and includes a lot of custom features, mostly related to order automation, payments and compliance-related things for medicine."
         ],
         "Technologies": [
           "React",
@@ -121,7 +119,7 @@ const Projects = () => {
       {
         "_id": "64eb098a34e07be6794efaa1",
         "projectFor": "mickey.ur@gmail.com",
-        "projectTitle": "Letmesport",
+        "projectTitle": "Internet booking platform. This portal enables amateur athletes to reserve and book a place or participation in a team or racket sport game online with a sports facility operator.",
         "projectKeyWord": "Booking system",
         "gellaryImages": [
           "https://static.vecteezy.com/system/resources/previews/005/048/106/original/black-and-yellow-grunge-modern-thumbnail-background-free-vector.jpg",
@@ -141,9 +139,9 @@ const Projects = () => {
           "Fin-tech"
         ],
         "overview": [
-          "As pet owners, the founders of Wagmo understood that basic procedures such as vaccinations, grooming, and bloodwork could quickly accumulate four-digit bills, and they saw an opportunity to create a unique platform that would make everyday pet care more affordable.",
-          "While most pet insurance providers only focus on medical emergencies, Wagmo's platform covers both urgent care and essential services. Following several successful seed rounds, the company engaged with me to enhance the platform's functionality. To improve customer service and keep pace with the ongoing digital transformation, Wagmo needed to move beyond Excel spreadsheets. ",
-          "Therefore, we migrated all client data to a dedicated app, enabling streamlined insurance plan management and more efficient client onboarding."
+          "View seat occupancy! Find out about playing times and occupancy of sports fields in your favorite sport!",
+          "Secure your place! Finding teammates and opponents is a thing of the past! Simply secure your place on a playing field of your choice.",
+          "Invite fellow players! You can invite friends and acquaintances to take part in a sports booking in just a few clicks."
         ],
         "Technologies": [
           "React",
@@ -193,7 +191,7 @@ const Projects = () => {
       {
         "_id": "64eb098a34e07be6794efaa4",
         "projectFor": "mickey.ur@gmail.com",
-        "projectTitle": "Versand-office",
+        "projectTitle": "Tracking delivery system",
         "projectKeyWord": "B2B",
         "gellaryImages": [
           "https://static.vecteezy.com/system/resources/previews/005/048/106/original/black-and-yellow-grunge-modern-thumbnail-background-free-vector.jpg",

@@ -5,10 +5,29 @@ import { siJavascript } from 'simple-icons';
 import { siJson } from 'simple-icons';
 import { siNextdotjs } from 'simple-icons';
 import { siPhp } from 'simple-icons';
+import { siPhpstorm } from 'simple-icons';
+import { siPhpmyadmin } from 'simple-icons';
 import { siLaravel } from 'simple-icons';
+import { siGit } from 'simple-icons';
 import { siGithub } from 'simple-icons';
 import { siAwsorganizations } from 'simple-icons';
 import { siDigitalocean } from 'simple-icons';
+import { siReact } from 'simple-icons';
+import { siHeroku } from 'simple-icons';
+import { siHomebrew } from 'simple-icons';
+import { siHtml5 } from 'simple-icons';
+import { siCss3 } from 'simple-icons';
+import { siBootstrap } from 'simple-icons';
+import { siJquery } from 'simple-icons';
+import { siTailwindcss } from 'simple-icons';
+import { siMaterialdesign } from 'simple-icons';
+import { siMysql } from 'simple-icons';
+import { siMongodb } from 'simple-icons';
+import { siAxios } from 'simple-icons';
+import { siVite } from 'simple-icons';
+import { siInertia } from 'simple-icons';
+import { siCodeigniter } from 'simple-icons';
+
 
 export const cloudProps= {
   containerProps: {
@@ -77,7 +96,7 @@ const slugs = [
   'visualstudiocode'
 ]
 
-const icons = [siJavascript, siJson,siNextdotjs, siLaravel, siPhp, siGithub, siAwsorganizations, siDigitalocean, ].map((icon) => {
+const icons = [siCodeigniter, siInertia, siVite, siAxios, siMongodb, siMysql, siMaterialdesign, siTailwindcss, siJquery, siBootstrap, siCss3, siHtml5, siHomebrew, siHeroku, siReact, siPhpstorm, siPhpmyadmin, siJavascript, siJson,siNextdotjs, siLaravel, siPhp, siGithub, siAwsorganizations, siDigitalocean, ].map((icon) => {
   return renderCustomIcon(
     icon,"#080510")
 })

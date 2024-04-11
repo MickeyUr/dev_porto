@@ -8,7 +8,7 @@ import {
   setDetailsProject,
 } from "../../../redux/features/project/projectSlice";
 import {motion} from "framer-motion"
-
+import { Tilt } from 'react-tilt'
 const ProjectsCard = ({ data, projectId }) => {
   const { _id, gellaryImages, projectTitle, projectKeyWord } = data;
 
@@ -30,6 +30,14 @@ const ProjectsCard = ({ data, projectId }) => {
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.3 * projectId }}
     className="w-[291px] md:w-[370px] my-4 mx-auto ">
+      <Tilt
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450,
+          }}
+          className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+      >
       <h2 className="text-text text-left">
         <span className="text-text-blue font-bold">
           Project_{projectId}
@@ -57,6 +65,7 @@ const ProjectsCard = ({ data, projectId }) => {
           </div>
         </div>
       </div>
+      </Tilt>
     </motion.div>
   );
 };
