@@ -1,5 +1,5 @@
 import React from 'react'
-import {Cloud, renderSimpleIcon, fetchSimpleIcons, SimpleIcon} from 'react-icon-cloud'
+import {Cloud, renderSimpleIcon, fetchSimpleIcons} from 'react-icon-cloud'
 
 import { siJavascript } from 'simple-icons';
 import { siJson } from 'simple-icons';

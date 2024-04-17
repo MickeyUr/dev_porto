@@ -13,7 +13,7 @@ import SecondButton from "../../Components/Button/SecondButton";
 import starfill from "../../Assets/icons/starfill.png";
 import staroutline from "../../Assets/icons/staroutline.png";
 import sideArrow from "../../Assets/icons/sideArrow.png";
-import { motion, layout } from "framer-motion";
+import { motion } from "framer-motion";
 // Import Swiper styles
 import "swiper/css";
 import "./Projects.css";

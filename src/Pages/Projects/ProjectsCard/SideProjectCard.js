@@ -9,7 +9,7 @@ import {
 } from "../../../redux/features/project/projectSlice";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../../../utils/motion.js";
-import Tilt from "react-tilt";
+
 const SideProjectCard = ({ data }) => {
   const { _id, gellaryImages, projectTitle, projectKeyWord } = data;
 
