@@ -1,11 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import viteTsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // base: '/dev_porto',
   plugins: [react()],
-  base: '/dev_porto/',
-  root: '',
+  // root: '',
   // base: 'raw.githubusercontent.com/MickeyUr/dev_porto/gh-pages/',
   build: {
     outDir: 'build'
