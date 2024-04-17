@@ -36,14 +36,16 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "vite",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build && npm run save-json-api",
+    "save-json-api": "node ./src/scripts/save-json-api.js",
+    "preview": "vite preview",
+    "serve": "json-server --watch ./src/server/db/index.js --routes ./src/server/routes.json --port 3001"
   },
   "eslintConfig": {
     "extends": [
@@ -64,8 +66,12 @@
     ]
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^3.1.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.19",
     "gh-pages": "^6.1.1",
-    "tailwindcss": "^3.3.3"
+    "json-server": "^0.17.4",
+    "node-fs": "^0.1.7",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
   }
 }

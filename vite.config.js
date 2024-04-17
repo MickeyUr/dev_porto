@@ -4,7 +4,7 @@ import viteTsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: '/dev_porto',
+  // base: '/dev_porto/',
   plugins: [
     {
       name: 'treat-js-files-as-jsx',
@@ -21,14 +21,14 @@ export default defineConfig({
     },
     react()
   ],
-  // optimizeDeps: {
-  //   force: true,
-  //   esbuildOptions: {
-  //     loader: {
-  //       '.js': 'jsx',
-  //     },
-  //   },
-  // },
+  optimizeDeps: {
+    force: true,
+    esbuildOptions: {
+      loader: {
+        '.js': 'jsx',
+      },
+    },
+  },
   // root: '',
   // base: 'raw.githubusercontent.com/MickeyUr/dev_porto/gh-pages/',
   build: {
