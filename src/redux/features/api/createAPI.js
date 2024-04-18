@@ -7,14 +7,18 @@ export const api = createApi({
     baseUrl:
         process.env.NODE_ENV === 'development'
             ? `http://localhost:3001/api/`
-            : `https://raw.githubusercontent.com/robzarel/gh-pages-demo/gh-pages/static/db/`,
+            : `https://raw.githubusercontent.com/MickeyUr/dev_porto/gh-pages/static/db/`,
   }),
   endpoints: (builder) => ({
     getUser: builder.query({
       query: (email) => `/data`,
     }),
     getprojects: builder.query({
-      query: (email) => `/project/all-project/${email}`,
+      // query: (email) => `/project/all-project/${email}`,
+      query: (email) => `/data`,
+      transformResponse: (response) => {
+        return {data: [...response?.projects]};
+      },
     }),
     getSingelProject: builder.query({
       query: (id) => `/project/project/${id}`,

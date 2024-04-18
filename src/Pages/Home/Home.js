@@ -1,21 +1,13 @@
 import React from "react";
 import "./Home.css";
-import TextAnimation from "react-text-animations";
+// import TextAnimation from "react-text-animations";
 import { useGetUserQuery } from "../../redux/features/api/createAPI";
-import SnackGame from "./SnakeGame/SnakeGame";
-import { GiSnake } from "react-icons/gi";
-import { RiCloseCircleFill, RiGamepadFill } from "react-icons/ri";
-import { SiAmazongames } from "react-icons/si";
-import weldoneAudio from "../../Assets/audio/weldone.wav";
-import ArrowKeyButtons from "../../Components/Button/ArrowButtons";
 import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { Helmet } from "react-helmet";
-
-import photo from "../../Assets/photo.png"
 
 const Home = () => {
   const { data, isLoading } = useGetUserQuery("mickey.ur@gmail.com");
@@ -26,28 +18,8 @@ const Home = () => {
   const [eatenApples, setEatenApples] = useState(10);
   const [wellDone, setWellDone] = useState(false);
 
-  const playAudio = () => {
-    const audio = new Audio(weldoneAudio);
-    audio.play();
-  };
-  useEffect(() => {
-    if (eatenApples === 0) {
-      playAudio();
-      setPlayGame(!playGame);
-      setWellDone(true);
-    }
-  }, [eatenApples]);
-  const snakeFood = (
-    <>
-      <span className=" relative flex h-3 w-3">
-        <span className="animate-ping absolute inline-flex  h-full w-full rounded-full bg-[#43D9AD] opacity-75"></span>
-        <span className="relative inline-flex rounded-full h-3 w-3 bg-[#43D9AD]"></span>
-      </span>
-    </>
-  );
-  const repeatedSnakeFood = Array(eatenApples).fill(snakeFood);
-
   const subheading = data?.data?.userTitles;
+
   return (
     <div className="h-full hero-background bg-cover bg-no-repeat bg-center">
       {isLoading && (
@@ -97,23 +69,23 @@ const Home = () => {
               </div>
             </div>
             <div className="text-sm my-10">
-              {/*<div>*/}
-              {/*  <p className="text-text ">// find my profile on Github:</p>*/}
+              <div>
+                <p className="text-text ">// find my profile on Github:</p>
 
-              {/*  <motion.a*/}
-              {/*    initial={{ opacity: 0 }}*/}
-              {/*    animate={{ opacity: 1 }}*/}
-              {/*    transition={{ duration: 0.3 }}*/}
-              {/*    href={data?.data?.githubLink}*/}
-              {/*    target="_blank"*/}
-              {/*  >*/}
-              {/*    <span className="text-text-blue">const</span>{" "}*/}
-              {/*    <span className="text-text-green">githubLink</span> ={" "}*/}
-              {/*    <span className="text-text-orange">*/}
-              {/*      “{data?.data?.githubLink}"*/}
-              {/*    </span>*/}
-              {/*  </motion.a>*/}
-              {/*</div>*/}
+                <motion.a
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.3 }}
+                  href={data?.data?.githubLink}
+                  target="_blank"
+                >
+                  <span className="text-text-blue">const</span>{" "}
+                  <span className="text-text-green">githubLink</span> ={" "}
+                  <span className="text-text-orange">
+                    “{data?.data?.githubLink}"
+                  </span>
+                </motion.a>
+              </div>
               <div className="my-4">
                 <p className="text-text ">// Download my resume:</p>
 
@@ -140,7 +112,6 @@ const Home = () => {
               // className="z-50 relative  h-full lg:flex hidden justify-start items-center"
           >
             <img
-                // src={photo}
                 src={data?.data?.userImage}
                 className="h-[300px] w-[300px] block mx-auto my-10 md:h-[500px] md:w-[500px] rounded-full border-b-4 image-shadow border-text-orange"
                 alt=""

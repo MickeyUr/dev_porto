@@ -61,7 +61,9 @@ const Router = () => {
             path: '*',
             element: <NotFound></NotFound>
         }
-    ])
+    ],
+        { basename: "/dev_porto/" }
+    )
 
     return (
         <RouterProvider router={router}>

@@ -1,5 +1,6 @@
 import "./App.css";
 import Router from "./Routes/Router";
+// import { HashRouter as Router} from "react-router-dom";
 import { useGetUserQuery } from "./redux/features/api/createAPI";
 
 function App() {
