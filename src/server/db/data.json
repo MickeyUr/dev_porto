@@ -41,7 +41,7 @@
      },
      {
        "skillsTitle": "Front-end:",
-       "details": "I have skills in UI/UX design and front-end development. They are enough for self-implementation of various admin panels and back-offices."
+       "details": "I have skills in UI/UX design and front-end development. Like React, Next, Redux, JavaScript, HTML, CSS, Tailwind, Bootstrap, Ant Design, MUI, etc. They are enough for self-implementation of various admin panels and back-offices."
      },
       {
           "skillsTitle": "Technologies:",
@@ -214,8 +214,8 @@
       ],
       "liveSite": "http://ovm.viaduct.pro/",
       "Duration": "(2 years, 6 month's)",
-      "developersRole": "I was Main developer and 4 developers works on this project",
-      "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers. Jeffery's attention to detail, clear communication, and problem-solving skills ensured a successful outcome. Thank you for your exceptional work, Jeffery!",
+      "developersRole": "I was Main developer and 2 developers works on this project",
+      "Result": "The online education platform offers a streamlined learning experience where students can easily sign up for courses, with admin-assigned access for others. Admins set course details, including limited 30-student batches, fostering personalized learning through one-to-one sessions. Management notifies participants 10 minutes before classes, which feature chat options and automated attendance. Only selected students and teachers join the class, ensuring a focused environment. The platform integrates a comprehensive online exam system with both multiple-choice and descriptive formats, allowing selected teachers to assign new question papers. Students receive performance feedback, creating a dynamic and secure online learning community that optimizes the educational journey for all users.",
       "__v": 0
     },
     {
@@ -286,7 +286,7 @@
       ],
       "liveSite": "https://wagmo.io/",
       "Duration": "(2 years, 6 month's)",
-      "developersRole": "I was Main developer and 4 developers works on this project",
+      "developersRole": "I was Main developer and 2 developers works on this project",
       "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers. Jeffery's attention to detail, clear communication, and problem-solving skills ensured a successful outcome. Thank you for your exceptional work, Jeffery!",
       "__v": 0
     },
@@ -358,7 +358,7 @@
       ],
       "liveSite": "https://www.versand-office.de/",
       "Duration": "(2 years, 6 month's)",
-      "developersRole": "I was Main developer and 4 developers works on this project",
+      "developersRole": "I was Main developer and 2 developers works on this project",
       "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers. Jeffery's attention to detail, clear communication, and problem-solving skills ensured a successful outcome. Thank you for your exceptional work, Jeffery!",
       "__v": 0
     },
@@ -424,7 +424,7 @@
       ],
       "liveSite": "https://lines-of-stories.xyz/",
       "Duration": "(2 years, 6 month's)",
-      "developersRole": "I was Main developer and 4 developers works on this project",
+      "developersRole": "I was Main developer and 1 developer works on this project",
       "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers. Jeffery's attention to detail, clear communication, and problem-solving skills ensured a successful outcome. Thank you for your exceptional work, Jeffery!",
       "__v": 0
     },
@@ -480,7 +480,7 @@
       ],
       "liveSite": "https://apps.apple.com/us/app/grownups-dating-30/id1596440775",
       "Duration": "(2 years, 6 month's)",
-      "developersRole": "I was Main developer and 4 developers works on this project",
+      "developersRole": "I was Main developer and 1 developers works on this project",
       "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers. Jeffery's attention to detail, clear communication, and problem-solving skills ensured a successful outcome. Thank you for your exceptional work, Jeffery!",
       "__v": 0
     },
@@ -498,7 +498,7 @@
         "E-commerce"
       ],
       "overview": [
-        "The online teacher academy"
+        "This is an online education platform. Where Students can learn different subjects. Only Students can sign up and others will be assigned by admin. Admin /management will set course details. Each batch will be 30 students, Here should be one to one session. Management will set class time and assign teachers & everybody will get notification before 10 starting class. The classroom should have chat options and attendance system.When teacher opens attendance then student can click attendance button attendance will store automatically. Only selected students and teachers can join the class. We have to add the online exam system CQ and MCQ both. Only selected teachers can assign a new question paper for the selected batch. Students will get their performance."
       ],
       "Technologies": [
         "React",
@@ -521,27 +521,21 @@
         "Integrated payment gateways"
       ],
       "challenges": [
-        "Developing a platform that covers both urgent care and essential services while keeping the costs affordable.",
-        "Ensuring seamless integration with different payment systems, including PayPal and Venmo, to facilitate quick reimbursement.",
-        "Developing a dedicated app that can handle client data effectively and enable streamlined insurance plan management and client onboarding.",
-        "Implementing marketing tools like Klaviyo to collect usage stats and trends effectively and increase web traffic.",
-        "Designing a user-friendly check-out flow that allows users to add new packages easily.",
-        "Providing comprehensive admin training to drive solution adoption and achieve higher ROI.",
-        "Ensuring that the platform complies with relevant regulations and standards in the insurance industry."
+        "Implementing a real-time chat system within the classroom can be challenging, requiring considerations for scalability, responsiveness, and synchronization across different devices.",
+        "Designing and implementing a notification system that reliably delivers timely alerts to all users, especially with the requirement of notifications before classes start, demands a robust infrastructure.",
+        "Developing a seamless attendance system that automatically stores attendance when the teacher initiates it, while maintaining accuracy and preventing manipulation, is a challenge.",
+        "Creating an intuitive and user-friendly interface that caters to a diverse user base, including students, teachers, and administrators, requires thoughtful design and testing.",
+        "Optimizing the performance of the platform to ensure smooth operation, quick response times, and minimal downtime, especially during peak usage, is crucial."
       ],
       "features": [
-        "Online access to policy details, claims, and coverage information.",
-        "Easy access to customer support for any questions or concerns.",
-        "Compliance with relevant regulations and standards in the insurance industry.",
-        "Comprehensive admin training to drive solution adoption and achieve higher ROI.",
-        "User-friendly check-out flow for adding new packages.",
-        "Usage statistics and trend collection through marketing tools like Klaviyo.",
-        "Affordable pricing for everyday pet care.",
-        "SPA (Single page application)"
+        "Live Batch System: A live batch system accommodating a maximum of 30 students per batch with the ability to select courses. Only students and teachers associated with specific batches can join classes using their registered email addresses.",
+        "Profile Management: Students can manage their profiles independently. Approval from the admin or management is required for profile updates by other users.",
+        "Notification System: Implementation of a robust notification system. Users can receive important notifications such as class reminders, document uploads, and other relevant updates.",
+        "Admin/Management Control: Administrators and management have the capability to add new users, oversee batches, manage students, teachers, courses, and other administrative functions."
       ],
       "liveSite": "https://hyperdocs.co/",
       "Duration": "(2 years, 6 month's)",
-      "developersRole": "I was Main developer and 4 developers works on this project",
+      "developersRole": "I was Main developer and 2 developers works on this project",
       "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers. Jeffery's attention to detail, clear communication, and problem-solving skills ensured a successful outcome. Thank you for your exceptional work, Jeffery!",
       "__v": 0
     },
@@ -599,7 +593,7 @@
       ],
       "liveSite": "https://app.mymejo.com/",
       "Duration": "(2 years, 6 month's)",
-      "developersRole": "I was Main developer and 4 developers works on this project",
+      "developersRole": "I was Main developer and 1 developer works on this project",
       "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers.",
       "__v": 0
     },
@@ -648,22 +642,20 @@
         "Rate and Review system"
       ],
       "challenges": [
-        "Developing a platform that covers both urgent care and essential services while keeping the costs affordable.",
-        "Ensuring seamless integration with different payment systems, including PayPal and Venmo, to facilitate quick reimbursement.",
-        "Developing a dedicated app that can handle client data effectively and enable streamlined insurance plan management and client onboarding.",
-        "Ensuring that the platform complies with relevant regulations and standards in the insurance industry."
+        "Developing a platform for users who wish to find a specialist in the care or recovery of a person after an injury or illness.",
+        "The app needed to facilitate quick communication between the patient and their preferred doctor, nurse, and/or therapist"
       ],
       "features": [
-        "Online access to policy details, claims, and coverage information.",
-        "Easy access to customer support for any questions or concerns.",
-        "Compliance with relevant regulations and standards in the insurance industry.",
-        "Affordable pricing for everyday pet care.",
-        "SPA (Single page application)"
+        "The app, built for nurses and doctors under the agency’s (aka the client’s) network to ensure quality of care, meets all the requirements regarding the scope and timeline.",
+        "Payment processing is completely independent of the app.",
+        "Patients will be able to have multiple caregivers at the same time.",
+        "Patients can rate and review the care they receive, and the data will be sent to the Caregiver’s Agency.",
+        "The Agency will then have the opportunity to review feedback and approve, deny, or delete reviews and ratings from Caregiver Profiles."
       ],
       "liveSite": "https://apps.apple.com/us/app/matchhha/id1604871823",
       "Duration": "(2 years, 6 month's)",
-      "developersRole": "I was Main backend developer and 1 developer works on mobile app",
-      "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers.",
+      "developersRole": "I was Main backend developer and 2 developers works on mobile app",
+      "Result": "According to expert forecasts, the number of users of such medical programs and applications will continue to grow exponentially. This is why healthcare professionals rely on such applications that will give them the ability to better communicate with patients, optimize their time, and develop new innovative medical practices.",
       "__v": 0
     },
     {
@@ -706,22 +698,23 @@
         "Analytics"
       ],
       "challenges": [
-        "Developing a platform that covers both urgent care and essential services while keeping the costs affordable.",
-        "Ensuring seamless integration with different payment systems, including PayPal and Venmo, to facilitate quick reimbursement.",
-        "Developing a dedicated app that can handle client data effectively and enable streamlined insurance plan management and client onboarding.",
-        "Ensuring that the platform complies with relevant regulations and standards in the insurance industry."
+        "User Access to Downloadable Resources: To enhance user experience, we aim to provide a feature that allows users to download their personalized routines and meal plans in PDF format. This not only requires implementing the download functionality but also ensuring that the content is formatted correctly for easy access.",
+        "Trainer Availability Management: It's crucial to establish a system where trainers can manage their availability effectively. This includes setting their working hours and days to align with their schedules and preferences.",
+        "Individualized Meal and Routine Assignments: To personalize the fitness journey for each student, we intend to enable trainers to create and assign customized meal plans and exercise routines to specific students.\n"
       ],
       "features": [
-        "Online access to policy details, claims, and coverage information.",
-        "Easy access to customer support for any questions or concerns.",
-        "Compliance with relevant regulations and standards in the insurance industry.",
-        "Affordable pricing for everyday pet care.",
-        "SPA (Single page application)"
+        "User Profile Management: Users can update their profiles and change passwords for security and personalization.",
+        "Student-Trainer Assignment: Students can easily assign trainers to guide their fitness journey.",
+        "Trainer Tools: Trainers can create and manage tailored exercise routines and meal plans for their students.",
+        "Availability Management: Trainers can set their availability and oversee their assigned students.",
+        "Membership Control: Users have the flexibility to manage their membership status, renew, upgrade, or cancel subscriptions.",
+        "Resource Downloads: Users can conveniently download their meal plans and exercise routines in PDF format.",
+        "Admin Duties: Administrators can add/update Membership Plans, access messages, and create new user or trainer accounts for platform maintenance."
       ],
       "liveSite": "https://wagmo.io/",
       "Duration": "(2 years, 6 month's)",
       "developersRole": "I was Main backend developer and 1 developer works on mobile app",
-      "Result": "I am extremely satisfied with the outcome of this project. Jeffery delivered beyond my expectations, and his dedication and expertise made the entire process smooth and efficient. The platform he developed covers all the essential features and functions seamlessly, making pet care more accessible and affordable for our customers.",
+      "Result": "This project is a fitness platform with user-friendly features like profile management, trainer assignment, and personalized fitness plans. Trainers can manage their availability and students. Users control their memberships and can download resources in PDF. Admins handle Membership Plans and accounts. This project tackles challenges like plan creation, downloads, availability, and personalization.",
       "__v": 0
     }
   ]
